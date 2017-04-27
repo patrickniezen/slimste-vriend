@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlimsteVriend.Web", "SlimsteVriend.Web\SlimsteVriend.Web.csproj", "{BD96B3F3-772A-457C-BE19-C708ABE4078A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlimsteVriend.Web", "src\SlimsteVriend.Web\SlimsteVriend.Web.csproj", "{BD96B3F3-772A-457C-BE19-C708ABE4078A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB2239A3-E7C1-4475-B5D5-5F0724C1F5BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD96B3F3-772A-457C-BE19-C708ABE4078A} = {FB2239A3-E7C1-4475-B5D5-5F0724C1F5BB}
 	EndGlobalSection
 EndGlobal
