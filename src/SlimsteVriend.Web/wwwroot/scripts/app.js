@@ -15,9 +15,9 @@
                     $(this).animate({ "top": '+=' + deltaY }, 1000);
                 }
 
-                // Update data-attributes and badge with new ranking
+                // Update data-attributes and score with new ranking
                 $(this).attr('data-rank', newPosition);
-                $('.badge', this).html(newPosition + 1);
+                //$('.score', this).html('40');
             });
         });
     }, 2500);

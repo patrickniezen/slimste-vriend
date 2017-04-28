@@ -3,11 +3,7 @@
     padding-bottom: 30px;
 }
 
-.list-group-item > .badge {
-    float: none;
-}
-
-.list-group-item > span {
+.list-group-item > div {
     vertical-align: top;
 }
 
@@ -17,9 +13,27 @@
     left: 0;
 }
 
-#ranking li .thumbnail {
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-    margin: 0;
+    #ranking li .thumbnail {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        margin: 0;
+    }
+
+.score {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 30%;
+
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background: #8B0000;
+    color: #FFFAEC;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+.name {
+    font-weight: bold;
 }
