@@ -2,3 +2,24 @@
     padding-top: 70px;
     padding-bottom: 30px;
 }
+
+.list-group-item > .badge {
+    float: none;
+}
+
+.list-group-item > span {
+    vertical-align: top;
+}
+
+#ranking, #ranking li {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#ranking li .thumbnail {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
