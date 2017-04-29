@@ -22,3 +22,11 @@
         });
     }, 2500);
 });
+
+function showModal(title, body) {
+    $('#myModalLabel').html(title);
+    $('.modal-body').html(body);
+
+    // See http://getbootstrap.com/javascript/#modals-examples for more examples.
+    $('#myModal').modal({})
+}
