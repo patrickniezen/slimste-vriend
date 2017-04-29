@@ -9,7 +9,7 @@ namespace SlimsteVriend.Web.Controllers
     [Route("api/ranking")]
     public class RankingController : Controller
     {
-        private static string[] Candidates => new string[] { "Dolan", "Spooderman", "StarWars Kid" };
+        private static string[] Candidates => new string[] { "Dolan", "Spooderman", "StarWars Kid", "Obama", "Nicolas" };
 
         [HttpGet]
         public List<string> Get()
